@@ -1,0 +1,42 @@
+{
+    "require": {
+        "magento-hackathon/magento-composer-installer": "~3.0",
+        "ausger/myporto": "dev-master",
+        "ausger/onestepcheckout-v340":"dev-master",
+        "ausger/shippingrate":"dev-master",
+        "cosmocommerce/alipay":"dev-master",
+        "fooman/speedsteradvanced" : "dev-master",
+        "AOEpeople/Aoe_Scheduler":"dev-master",
+        "aschroder/smtp_pro":"dev-master",
+        "GordonLesti/Lesti_Fpc":"dev-master",
+        "colinmollenhour/cache-backend-redis":"dev-master",
+        "fbrnc/aoe_quotecleaner":"dev-master",
+        "aschroder/magento_setstartordernumber":"dev-master",
+        "firegento/pdf":"dev-master",
+        "pulsestorm/layoutviewer":"dev-master",
+        "steverobbins/redismanager":"dev-master",
+        "aoepeople/aoe_templatehints":"dev-master",
+        "sphinx/search":"dev-master",
+        "jreinke/autocomplete":"dev-master",
+        "optimiseweb/mobiledetect":"dev-master"
+
+    },
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "http://ausger.satis:8888/"
+        },
+        {
+            "type":"composer",
+            "url":"https://packages.firegento.com/"
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "/Users/leishang/helenstreet/php/magento/domains/www.ausger.com",
+        "magento-deploystrategy":"copy",
+        "magento-force": true
+    },
+    "config": {
+        "secure-http" : false
+    }
+}

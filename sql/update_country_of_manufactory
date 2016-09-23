@@ -12,7 +12,7 @@ WHERE
 -- show all product whose attribute country_of_manufacture is null
 select pev.entity_type_id, pev.attribute_id, pev.entity_id, pev.value from  catalog_product_entity_varchar AS pev  JOIN
     eav_attribute AS ea ON ea.entity_type_id = 4
-    AND ea.attribute_code = 'country_of_manufacture'
+    AND ea.attribute_code = 'quantity'
     AND pev.attribute_id = ea.attribute_id
 WHERE
     pev.value is NULL

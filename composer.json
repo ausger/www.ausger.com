@@ -18,7 +18,8 @@
         "aoepeople/aoe_templatehints":"dev-master",
         "sphinx/search":"dev-master",
         "jreinke/autocomplete":"dev-master",
-        "optimiseweb/mobiledetect":"dev-master"
+        "optimiseweb/mobiledetect":"dev-master",
+        "payserv/googlefinance":"dev-master"
 
     },
     "repositories":[

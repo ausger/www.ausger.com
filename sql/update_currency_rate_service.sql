@@ -1,0 +1,1 @@
+update core_config_data set value = 'GoogleFinance' where value = 'webservicex';

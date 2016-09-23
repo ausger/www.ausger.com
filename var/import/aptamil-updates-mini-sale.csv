@@ -1,0 +1,9 @@
+store,sku,min_sale_qty,use_config_min_sale_qty
+default,aptamil-anfang-1-800g-3-pack,1,1
+default,aptamil-folgemilch-2-800g-3-pack,1,1
+default,aptamil-folgemilch-3-800g-3-pack,1,1
+default,aptamil-kindermilch-1plus-600g-4-pack,1,1
+default,aptamil-kindermilch-2plus-600g-4-pack,1,1
+default,aptamil-anfang-1-1200g-2-pack,1,1
+default,aptamil-folgemilch-2-1200g-2-pack,1,1
+default,aptamil-folgemilch-3-1200g-2-pack,1,1
